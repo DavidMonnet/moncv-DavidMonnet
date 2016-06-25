@@ -6,8 +6,14 @@
     text-align: center;
 }
 
-#cell-citation{
+#img_interet{
+	valign:middle;
+	text-align:center;
+	margin-top:20%;
+}
 
+#td_img_interet{
+	text-align:center;
 }
 
 #email-adress{
