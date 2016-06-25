@@ -1,9 +1,9 @@
-#tab{
-	margin:auto;
-}
-
 #contact_zone {
     text-align: center;
+}
+
+#cell-citation{
+	width:80%;
 }
 
 #email-adress{
@@ -30,6 +30,56 @@
 	padding:4px 2px 4px 2px;
 	border:1px;
 	border-style:solid;
+}
+
+.mentions {
+	background:#222222 url(/css/img/footer-logo.png) no-repeat 99% 50%;
+	padding:1.3em;
+	color:#888888;
+	box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
+	border:1px solid #ddd;
+	margin:8em 3em 1em 3em;
+	padding-right: 170px;
+	text-align:center;
+}
+
+.ul_domaine_comp li{
+	line-height:140%;
+}
+
+.ul_cursus_uni li{
+	line-height:140%;
+}
+
+.ul_exp_pro li{
+	line-height:150%;
+}
+
+.ul_exp_pro_emploi li{
+	line-height:200%;
+}
+
+.ul_exp_pro_emploi_idoine li{
+	line-height:180%;
+}
+
+.ul_exp_pro_emploi_pellat li{
+	line-height:170%;
+}
+
+.mentions a {
+	font-weight:bold;
+	color:#fff;
+}
+
+.hint {
+	background:#ddd;
+	padding:3px;
+	border:1px dashed white;
+}
+
+.warning {
+	color:#c00;
 }
 
 body {
@@ -69,40 +119,10 @@ ul {
 }
 
 li {
-	background: url(/css/img/ico-puce.png) no-repeat scroll left 7px transparent;
 	list-style-type:none;
 	padding-left: 10px;
-	margin-top:3px;
-	margin-bottom:3px;
 }
 
-.mentions {
-	background:#222222 url(/css/img/footer-logo.png) no-repeat 99% 50%;
-	padding:1.3em;
-	color:#888888;
-	-webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
-	-moz-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
-	box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
-	border:1px solid #ddd;
-	margin:8em 3em 1em 3em;
-	padding-right: 170px;
-	text-align:center;
-}
-
-.mentions a {
-	font-weight:bold;
-	color:#fff;
-}
-
-.hint {
-	background:#ddd;
-	padding:3px;
-	border:1px dashed white;
-}
-
-.warning {
-	color:#c00;
-}
 
 input[type="number"] {
 		line-height:1.5;
@@ -112,18 +132,14 @@ input[type="number"] {
 	}
 table {
 	width: auto;
-	margin: 25px 0 0 0;
+	margin: auto;
 }
 
 th {
 	color:#888888;
 	background: #222222;
-	-moz-border-radius-topleft: 7px;
-	-moz-border-radius-topright: 7px;
-	-webkit-border-top-right-radius: 7px;
-	-webkit-border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	border-top-left-radius: 7px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 	text-align:center;
 	font-weight:normal;
 }
@@ -149,26 +165,20 @@ legend {
 	h1 {font-size:2.5em;}
 	img {
 	height: auto; width: auto;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
     }
 	 body, details, .mentions {
 	   width: auto;
 	   margin: auto;
-	   padding: auto;
+	   padding: initial;
 	 }
 	img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
 	   max-width: 100%;
 	 }
 	img {
 	   height: auto; width: auto;
-	   -webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
 	 }
 	textarea, table, td, th, code, pre, samp {
 	   word-wrap: break-word;
-	   -webkit-hyphens: auto;
-	   -moz-hyphens: auto;
 	   hyphens: auto;
 	}
 	code, pre, samp {
@@ -189,6 +199,6 @@ legend {
 }
 @media (max-width:640px) and (orientation: landscape) {
   body {
-   -webkit-text-size-adjust: 70%;
+    margin:auto;
   }
 }
