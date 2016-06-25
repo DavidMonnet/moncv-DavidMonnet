@@ -42,6 +42,10 @@
 	border-style:solid;
 }
 
+.progress-bar{
+	background-color:#0258D1;
+}
+
 .th-cust{
 	border:none;
 }
