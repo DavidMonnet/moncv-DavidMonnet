@@ -23,13 +23,12 @@
 	
 #img_david{
 	color: white;
-	font-size: 2.4em;
+	font-size: 1.7em;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px #cccccc;
-	background:#0258D1;
+	background:#0258d1;
 	border-bottom:3px solid #444;
 	border-top:3px solid #444;
-	margin:0px;
 	padding:0.8em;
 }
 
@@ -57,7 +56,7 @@
 	box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
 	border:1px solid #ddd;
 	margin:auto;
-	padding-right: 170px;
+	padding:2% 5% 2% 5%;
 	text-align:center;
 }
 
