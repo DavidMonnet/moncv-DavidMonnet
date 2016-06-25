@@ -1,3 +1,6 @@
+.progress-bar{
+	background-color:#0258D1;
+}
 
 #tab{
 	margin:auto;
@@ -5,6 +8,10 @@
 
 #contact_zone {
     text-align: center;
+}
+
+#navbar-menu{
+	background-color:#222222;
 }
 	
 #img_david{
@@ -29,7 +36,7 @@
 }
 
 body {
-	font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+	font: normal 160% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
 	color: #444;
 	background:#f4f4f4;
 	padding:0 0 2em 0;
@@ -42,7 +49,7 @@ h1 {
 	font-size: 2.4em;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px #cccccc;
-	background:#0258D1;
+	background:#0258d1;
 	border-bottom:3px solid #444;
 	border-top:3px solid #444;
 	margin:25px;
@@ -59,7 +66,7 @@ h2 {
 }
 
 ul {
-	margin:25px;
+	margin:5px;
 	padding:0;
 	list-style:none;
 }
@@ -68,12 +75,12 @@ li {
 	background: url(/css/img/ico-puce.png) no-repeat scroll left 7px transparent;
 	list-style-type:none;
 	padding-left: 10px;
-	margin-top:2px;
-	margin-bottom:2px;
+	margin-top:3px;
+	margin-bottom:3px;
 }
 
 .mentions {
-	background:#505050 url(/css/img/footer-logo.png) no-repeat 99% 50%;
+	background:#444 url(/css/img/footer-logo.png) no-repeat 99% 50%;
 	padding:1.3em;
 	color:#fff;
 	-webkit-box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.1);
@@ -120,6 +127,7 @@ th {
 	border-top-right-radius: 7px;
 	border-top-left-radius: 7px;
 	text-align:center;
+	font-weight:normal;
 }
 
 th, td {

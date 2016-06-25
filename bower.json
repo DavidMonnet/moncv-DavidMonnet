@@ -3,7 +3,9 @@
   "private": true,
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "Chart.js": "^2.1.6",
+    "jquery-smooth-scroll": "^1.7.2"
   },
   "overrides": {
     "bootstrap": {
