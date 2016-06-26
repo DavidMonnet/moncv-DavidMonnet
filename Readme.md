@@ -1,4 +1,4 @@
-# Projet individuel "CV" - Cours bloc technologies web
+# Projet individuel "CV" - HEG technologies web
 ______________________________________________________________________________
 
 
