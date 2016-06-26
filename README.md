@@ -1,4 +1,4 @@
-# Projet individuel "CV David Monnet" - Cours bloc sur les technologies web
+# Projet individuel "CV" - Cours bloc technologies web
 ______________________________________________________________________________
 
 
@@ -306,9 +306,15 @@ Grâce aux outils suivants, il est possible de valider son code HTML et CSS sép
 
 ### Problèmes rencontrés
 * Mes images ne sont pas prises en compte !
+
 > Le format .png est accepté seulement, celles qui étaient en .PNG n'ont pas pu passer sur le dossier distant et donc ne s'affichaient pas en ligne. 
+
 * Mes vieux dossiers supprimer sont encore dans les historiques commits des fichiers actuels de github client!  
+
 > C'est normal ! Le dossier distant utilisé et mis à jour n'est que "dist" les autres répertoires restent inchangés
+
 * Mon code Jquery est en place dans mon fichier main.js et correct, les liens de dépendances sont présent dans le fichier bower.json mais aucun effet n'est appliquer à mon site lorsque je clique sur un des liens de mon menu (smoothscroll)
+
 > Une petite vérification dans le validateur de code HTML et hop ! On remarque que la balise body a oublié d'être fermée et que la dépendance au fichier main.js est inexistente !  Attention au copier collé..
+
 
