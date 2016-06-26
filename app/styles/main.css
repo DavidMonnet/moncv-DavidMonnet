@@ -59,6 +59,10 @@
 	text-align:center;
 }
 
+.ul_charts li{
+	line-height:140%;
+}
+
 .ul_domaine_comp li{
 	line-height:140%;
 }
