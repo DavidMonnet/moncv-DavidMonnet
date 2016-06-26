@@ -36,4 +36,20 @@ $(document).ready(function(){
 			}
 		});
 	});
+
+	/*RETURN ON TOP BUTTON*/
+    $('body').append('<div id="returnOnTop" title="Retour en haut">&nbsp;</div>');
+    
+    $('#returnOnTop').click( function() {
+        $('html,body').animate({scrollTop: 0}, 'slow');
+    });
+});
+
+/*RETURN ON TOP BUTTON*/
+$(window).scroll(function() {
+    // If on top fade the bouton out, else fade it in
+    if ( $(window).scrollTop() == 0 )
+        $('#returnOnTop').fadeOut();
+    else
+        $('#returnOnTop').fadeIn();
 });
