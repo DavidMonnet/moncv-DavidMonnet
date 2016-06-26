@@ -292,6 +292,8 @@ Grâce aux outils suivants, il est possible de valider son code HTML et CSS sép
 
 ## Refléxion personnelle sur le projet
 > Ci-dessous quelques éléments à mon sens utiles sur les acquis permis par ce type de projet ainsi que les problèmes rencontrés lors de ce dernier.
+
+
 ### Acquis personnels
 * Utilisation de bootstrap et prise en main de son système de grille
     * Ajout de plugin pour gestion des charts
@@ -300,6 +302,8 @@ Grâce aux outils suivants, il est possible de valider son code HTML et CSS sép
     * Ajout et prise en main des templates bootswatch
 * Découverte des outils d'inspection de pages web permettant le travail synchronisé
 * Utilisation des validateurs de code pour permettre un code correct et irréprochable.
+
+
 ### Problèmes rencontrés
 * Mes images ne sont pas prises en compte !
     > Le format .png est accepté seulement, celles qui étaient en .PNG n'ont pas pu passer sur le dossier distant et donc ne s'affichaient pas en ligne. 
